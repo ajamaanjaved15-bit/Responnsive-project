@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: The Students Teacher;    
+     
+     /* ik cheez hoti universal selector(bad me dekhainge)yahan dali hui pro har elemtn pe apply hojati */
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.parent{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: rgb(153, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    overflow: auto;
+   
+    
+}
+
+.child1{
+      width: 20%;
+      height: 40%;
+      background-color: red;
+      border: 2px solid white;
+      flex-shrink: 0;
+}
+
+.child2{
+      width: 20%;
+      height: 40%;
+      background-color: rgb(69, 130, 180);
+            border: 2px solid white;
+              flex-shrink: 0;
+}
+.child3{
+      width: 20%;
+      height: 40%;
+      background-color: rgb(41, 185, 101);
+            border: 2px solid white;
+              flex-shrink: 0;
+}
+.child4{
+      width: 20%;
+      height: 40%;
+      background-color: rgb(0, 0, 0);
+      border: 2px solid white;
+        flex-shrink: 0;
+
+         
+}
